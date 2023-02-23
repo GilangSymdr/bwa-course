@@ -1,0 +1,61 @@
+.header {
+  width: 100%;
+  border-bottom: 1px solid gainsboro;
+  height: 70px;
+  line-height: 70px;
+  box-sizing: border-box;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.nav_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.logo {
+  display: flex;
+  position: absolute;
+  margin-top: 20px;
+  width: 133px;
+  height: 36px;
+}
+
+a {
+  color: black;
+  font-weight: 600px;
+  font-style: bold;
+  line-height: 36px;
+  text-align: center;
+  font-size: 24px;
+}
+
+span {
+  color: #4B56D2;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  margin-left: 939px;
+}
+
+.nav_item {
+  list-style: none;
+  margin-right: 28px;
+  margin-top: -5px;
+  cursor: pointer;
+}
+
+.nav_item a {
+  text-decoration: none;
+  font-style: bold;
+  color: #000;
+  font-size: 13px;
+  list-style: none;
+  margin-right: 30px;
+}
+
+

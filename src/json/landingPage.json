@@ -1,0 +1,183 @@
+{
+"hero": {
+  "profile": 10000,
+  "website": 1000,
+  "map": 2000
+},
+  "mostPicked": [
+    {
+      "_id": "asd1293uasdads1",
+      "name": "Jung Hook Sie",
+      "type": "Apartment",
+      "imageUrl": "./Assets/img_picked/feature.png",
+      "country": "South Korea",
+      "city": "Seoul Flore",
+      "price": "80",
+      "unit": "night"
+    },
+    {
+      "_id": "asd1293uasdads1",
+      "name": "The People House",
+      "type": "Hotel",
+      "imageUrl": "./Assets/img_picked/feature1.png",
+      "country": "Indonesia",
+      "city": "Bogor",
+      "price": "52",
+      "unit": "night"
+    },
+    {
+      "_id": "asd1293uasdads1",
+      "name": "House Tour",
+      "type": "Rumah",
+      "imageUrl": "./Assets/img_picked/feature2.png",
+      "country": "South Korea",
+      "city": "Seoul Flore",
+      "price": "80",
+      "unit": "night"
+    },
+    {
+      "_id": "asd1293uasdads1",
+      "name": "Jung Hook Sie",
+      "type": "Apartment",
+      "imageUrl": "./Assets/img_picked/feature3.png",
+      "country": "South Korea",
+      "city": "Seoul Flore",
+      "price": "80",
+      "unit": "night"
+    },
+    {
+      "_id": "asd1293uasdads1",
+      "name": "Jung Hook Sie",
+      "type": "Apartment",
+      "imageUrl": "./Assets/img_picked/feature4.png",
+      "country": "South Korea",
+      "city": "Seoul Flore",
+      "price": "80",
+      "unit": "night"
+    }
+  ],
+  "categories": [
+    {
+      "_id": "asd1293uasdads1",
+      "name": "House with beauty backyard",
+      "items": [
+        {
+          "_id": "asd1293uasdads1",
+          "name": "PSW Antasari",
+          "imageUrl": "/images/backyard.png",
+          "country": "South Korea",
+          "city": "Seoul Flore",
+          "isPopular": true
+        },
+        {
+          "_id": "asd1293uasdads1",
+          "name": "Kuretakeso",
+          "imageUrl": "/images/backyard1.png",
+          "country": "South Korea",
+          "city": "Seoul Flore",
+          "isPopular": false
+        },
+        {
+          "_id": "asd1293uasdads1",
+          "name": "Arya Duta",
+          "imageUrl": "/images/backyard2.png",
+          "country": "South Korea",
+          "city": "Seoul Flore",
+          "isPopular": false
+        },
+        {
+          "_id": "asd1293uasdads1",
+          "name": "Grand Dhika",
+          "imageUrl": "/images/backyard3.png",
+          "country": "South Korea",
+          "city": "Seoul Flore",
+          "isPopular": false
+        }
+      ]
+    },
+    {
+      "_id": "asd1293uasdads1",
+      "name": "Hotels with large living room",
+      "items": [
+        {
+          "_id": "asd1293uasdads1",
+          "name": "Grand Dhika",
+          "imageUrl": "/images/backyard4.png",
+          "country": "South Korea",
+          "city": "Seoul Flore",
+          "isPopular": false
+        },
+        {
+          "_id": "asd1293uasdads1",
+          "name": "Grand Dhika",
+          "imageUrl": "/images/backyard5.png",
+          "country": "South Korea",
+          "city": "Seoul Flore",
+          "isPopular": true
+        },
+        {
+          "_id": "asd1293uasdads1",
+          "name": "Grand Dhika",
+          "imageUrl": "/images/backyard6.png",
+          "country": "South Korea",
+          "city": "Seoul Flore",
+          "isPopular": false
+        },
+        {
+          "_id": "asd1293uasdads1",
+          "name": "Grand Dhika",
+          "imageUrl": "/images/backyard7.png",
+          "country": "South Korea",
+          "city": "Seoul Flore",
+          "isPopular": false
+        }
+      ]
+    },
+    {
+      "_id": "asd1293uasdads1",
+      "name": "Apartments with kitchen set",
+      "items": [
+        {
+          "_id": "asd1293uasdads1",
+          "name": "Grand Dhika",
+          "imageUrl": "/images/backyard8.png",
+          "country": "South Korea",
+          "city": "Seoul Flore",
+          "isPopular": false
+        },
+        { "_id": "asd1293uasdads1",
+          "name": "Grand Dhika",
+          "imageUrl": "/images/backyard9.png",
+          "country": "South Korea",
+          "city": "Seoul Flore",
+          "isPopular": false
+        },
+        {
+          "_id": "asd1293uasdads1",
+          "name": "Grand Dhika",
+          "imageUrl": "/images/backyard10.png",
+          "country": "South Korea",
+          "city": "Seoul Flore",
+          "isPopular": false
+        },
+        {
+          "_id": "asd1293uasdads1",
+          "name": "Grand Dhika",
+          "imageUrl": "/images/backyard11.png",
+          "country": "South Korea",
+          "city": "Seoul Flore",
+          "isPopular": true
+        }
+      ]
+    }
+  ],
+  "testimonial": {
+    "_id": "asd1293uasdads1",
+    "imageUrl": "/images/testimonial-landingpages.jpg",
+    "name": "Happy Family",
+    "rate": 4.55,
+    "content": "What a great trip with my family and I should try again next time soon ...",
+    "familyName": "Angga",
+    "familyOccupation": "Product Designer"
+  }
+}
