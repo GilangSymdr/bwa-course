@@ -5,10 +5,10 @@ import Button from '../../elements/Button/index';
 export default function Footer () {
 
   return (
-    <Footer>
+    <div className="footer">
       <div className="container">
         <div className="row">
-          <div className="col">
+          <div className="col-auto">
           <div className="logo">
         <a><span>Stay</span>cation</a>
           </div>
@@ -65,6 +65,6 @@ export default function Footer () {
           </div>
         </div>
       </div>
-    </Footer>
+      </div>
   )
 }
