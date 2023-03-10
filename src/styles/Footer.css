@@ -1,0 +1,40 @@
+.Footer {
+  border-top: 1px solid gray;
+  padding-top: 50px;
+}
+
+.logo {
+  display: flex;
+  position: absolute;
+  margin-top: 20px;
+  width: 133px;
+  height: 36px;
+}
+
+a {
+  color: black;
+  font-weight: 600px;
+  font-style: bold;
+  line-height: 36px;
+  text-align: center;
+  font-size: 24px;
+}
+
+span {
+  color: #4B56D2;
+}
+
+.list-group-item {
+  padding-top: 0.3125rem 0;
+}
+
+.addres {
+  font-weight: lighter;
+  color: gray;
+}
+
+.copyrights {
+  margin-top: 50px 0;
+  font-size: 15px;
+  color: gray;
+}

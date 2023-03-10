@@ -14,34 +14,45 @@ export default function MostPicked(props) {
     <div className="container-xxl">
       <div className="row">
         <div className="col-4">
-          <div className="main-banner position-relative p-2">
-            <img src={ImageHero} alt="main-banner" className='img-fluid rounded-2'/> <Link to="/" className='main-content position-absolute'>$ 50.0  <span>per night</span></Link>
+          <div className="card main-banner position-relative" style={{border: 0}}>
+            <img src={ImageHero} alt="main-banner" className='image'/>
+            <Link to="/" className='main-content position-absolute' style={{right: 0}}>$ 120.0  <span>per night</span></Link>
+            <h1 className='tag-place position-absolute' style={{fontSize: 16, marginTop: 415, marginLeft: 20}}>Coconut Village</h1>
+                <p className="tag-country position-absolute" style={{marginTop: 415, marginLeft: 20}}>Bali, Indonesia</p>
           </div>
         </div>
         <div className="col-8">
           <div className="row">
             <div className="col-6">
-              <div className="main-banner-feature  p-2">
-                <img src={ImageHero2} alt="main-banner" className='img-fluid' />
-                <Link to="/" className='main-content position-absolute' style={{right: 553}}>$ 50.0  <span>per night</span></Link>
+              <div className="card main-banner-feature " style={{border: 0}}>
+                <img src={ImageHero2} alt="main-banner" className='image' style={{width: 410}}/>
+                <Link to="/" className='main-content position-absolute' style={{right: 0}}>$ 90.0  <span>per night</span></Link>
+                <h1 className='tag-place position-absolute' style={{fontSize: 16, marginTop: 160, marginLeft: 20}}>Jung Hook Sie</h1>
+                <p className="tag-country position-absolute" style={{marginTop: 159, marginLeft: 20}}>Seoul Florea, South Korea</p>
               </div>
             </div>
             <div className="col-6">
-              <div className="main-banner-feature p-2 ">
-                <img src={ImageHero3} alt="main-banner" className='img-fluid' />
-                <Link to="/" className='main-content position-absolute' style={{right: 121}}>$ 50.0  <span>per night</span></Link>
+              <div className="card main-banner-feature "  style={{border: 0, marginLeft: 15}}>
+                <img src={ImageHero3} alt="main-banner" className='image' style={{width: 410}}/>
+                <Link to="/" className='main-content position-absolute' style={{right: 0}}>$ 87.0  <span>per night</span></Link>
+                <h1 className='tag-place position-absolute' style={{fontSize: 16, marginTop: 160, marginLeft: 20}}>Java House</h1>
+                <p className="tag-country position-absolute" style={{marginTop: 159, marginLeft: 20}}>Nusa Penida, Indonesia</p>
               </div>
             </div>
             <div className="col-6">
-              <div className="main-banner-feature p-2">
-                <img src={ImageHero4} alt="main-banner" className='img-fluid' />
-                <Link to="/" className='main-content position-absolute' style={{right: 121}}>$ 50.0  <span>per night</span></Link>
+              <div className="card main-banner-feature "  style={{border: 0, marginTop: 15}}>
+                <img src={ImageHero4} alt="main-banner" className='image' style={{width: 410}}/>
+                <Link to="/" className='main-content position-absolute' style={{right: 0}}>$ 80.0  <span>per night</span></Link>
+                <h1 className='tag-place position-absolute' style={{fontSize: 16, marginTop: 160, marginLeft: 20}}>The People House</h1>
+                <p className="tag-country position-absolute" style={{marginTop: 159, marginLeft: 20}}>Santorini, Italia</p>
               </div>
             </div>
             <div className="col-6">
-              <div className="main-banner-feature p-2">
-                <img src={ImageHero5} alt="main-banner" className='img-fluid' />
-                <Link to="/" className='main-content position-absolute' style={{right: 553}}>$ 50.0  <span>per night</span></Link>
+              <div className="card main-banner-feature "  style={{border: 0, marginTop: 15, marginLeft: 15}}>
+                <img src={ImageHero5} alt="main-banner" className='image'style={{width: 410}}/>
+                <Link to="/" className='main-content position-absolute' style={{right: 0}}>$ 50.0  <span>per night</span></Link>
+                <h1 className='tag-place position-absolute' style={{fontSize: 16, marginTop: 160, marginLeft: 20}}>Green Villa</h1>
+                <p className="tag-country position-absolute" style={{marginTop: 159, marginLeft: 20}}>Bali, Indonesia</p>
               </div>
             </div>
           </div>
