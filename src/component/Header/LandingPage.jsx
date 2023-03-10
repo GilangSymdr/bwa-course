@@ -4,7 +4,7 @@ import landingPage from '../../json/landingPage.json';
 import Hero from '../Header/UI/Hero';
 import Categories from '../Header/UI/Categories';
 import Testymony from './UI/Testymony';
-import Footer from './UI/Footer';
+
 
 
 
@@ -24,7 +24,7 @@ export default class LandingPage extends Component {
       <MostPicked refMostPicked={this.refMostPicked} data={landingPage.mostPicked}/>
       <Categories refMostPicked={this.refMostPicked} data={landingPage.categories} />
       <Testymony data={landingPage.testimonial}/>
-      <Footer />
+    
       </>
     )
   
