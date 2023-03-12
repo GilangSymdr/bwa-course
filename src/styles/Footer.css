@@ -1,6 +1,7 @@
-.Footer {
+.footer{
   border-top: 1px solid gray;
-  padding-top: 50px;
+  padding-top: 150px;
+  margin-top: -200px;
 }
 
 .logo {
@@ -26,6 +27,7 @@ span {
 
 .list-group-item {
   padding-top: 0.3125rem 0;
+  
 }
 
 .addres {
@@ -37,4 +39,12 @@ span {
   margin-top: 50px 0;
   font-size: 15px;
   color: gray;
+}
+
+.brand-tagline {
+  margin-top: 8px;
+}
+
+.logo-footer {
+  margin-bottom: 30px;
 }
