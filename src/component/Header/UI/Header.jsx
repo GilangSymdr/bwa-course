@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../../styles/Header.css';
+import { Fade } from "react-awesome-reveal";
 
 
 
@@ -25,7 +26,8 @@ const Header = () => {
     display: 'Agents'
   }
   ]
-  return <header className='header'>
+  return (<Fade>
+  <header className='header'>
   <div className='container'>
     <div className="nav-wrapper">
       <div className="logo">
@@ -47,6 +49,7 @@ const Header = () => {
     </div>
   </div>
   </header>
+  </Fade> )
 }
 
 export default Header;
