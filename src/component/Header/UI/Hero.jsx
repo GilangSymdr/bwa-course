@@ -4,6 +4,7 @@ import Map from '../../Assets/icons/Map.svg';
 import Profile from '../../Assets/icons/Profile.svg';
 import Website from '../../Assets/icons/Website.svg';
 import ImageHero from '../../Assets/image/sidney.png';
+import { Fade } from "react-awesome-reveal";
 
 
 
@@ -21,7 +22,8 @@ const Hero = (props) => {
     return formatNumbering.format(number);
   }
 
-  return <section>
+  return ( <Fade bottom>
+     <section>
     <div className='container'>
       <div className='hero_wrapper'>
 
@@ -65,6 +67,8 @@ const Hero = (props) => {
       </div>
     </div>
   </section>
+  </Fade>
+  )
 }
 
 export default Hero;

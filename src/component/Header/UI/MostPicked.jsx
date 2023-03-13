@@ -7,9 +7,11 @@ import ImageHero4 from '../../Assets/img_picked/feature3.png';
 import ImageHero5 from '../../Assets/img_picked/feature4.png';
 import ImageHero from '../../Assets/img_picked/feature.png';
 
+
 export default function MostPicked(props) {
   
-  return ( <section className='container' style={{height: 270}} ref={props.refMostPicked}>
+  return (
+  <section className='container' style={{height: 270}} ref={props.refMostPicked}>
     <h4 className="mb-4 content">Most Picked</h4>
     <div className="container-xxl">
       <div className="row">
@@ -60,5 +62,6 @@ export default function MostPicked(props) {
       </div>
     </div>
   </section>
+  
   )
 }
