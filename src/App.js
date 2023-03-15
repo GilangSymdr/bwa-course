@@ -9,6 +9,7 @@ function App() {
     <>
     <Routes>
       <Route exact path="/" element={<LandingPage />} />
+      <Route exact path="/example" element={<Example />} />
     </Routes>
     </>
   )
