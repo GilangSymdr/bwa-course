@@ -16,14 +16,13 @@
       display: flex;
       justify-content: center;
       user-select: none;
-    }
-
-    &.minus {
+       &.minus {
       background-color: $red;
     }
 
     &.plus {
       background-color: $teal;
+    }
     }
   }
 

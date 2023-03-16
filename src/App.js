@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import './App.css';
 import LandingPage from "./component/Header/LandingPage";
 import './assets/scss/style.scss';
+import Example from "component/Header/Example";
 
 function App() {
 
